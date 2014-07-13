@@ -1,0 +1,38 @@
+pip.config.cat.clientOnly.name=Nur clientbasiert
+pip.config.cat.clientOnly.comment=Diese Einstellungen beeinflussen nur den Client, auf dem der Mod läuft.
+
+pip.config.prop.pipToggle.name=PiP-Schalter
+pip.config.prop.pipToggle.comment=Taste, auf der der PiP-Schalter liegt.
+
+pip.config.prop.pipIcons.name=Show PiP-Icons
+pip.config.prop.pipIcons.comment=Zeige die Spielericons permanent an?
+
+pip.config.prop.pipView.name=PiP-Sicht
+pip.config.prop.pipView.comment=Welche Standardsicht soll in PiP gezeigt werden?\n0 = Erste Person\n1 = Dritte Person (von hinten)\n2 = Dritte Person (von vorne)
+
+pip.config.prop.updateFreq.name=Update-Frequenz
+pip.config.prop.updateFreq.comment=Frequenz, wie oft PiP pro Sekunde versucht, das Bild upzudaten.\nAuf 0 setzen, um es an den Rendertick zu binden.
+
+pip.config.prop.playerCam.name=Spieler-Kamera
+pip.config.prop.playerCam.comment=Wessen Sicht versucht du durch zu sehen (Es gibt kein Limit, aber ich würde nicht mehr als 3 empfehlen)?\nTrenne die Spielernamen durch Kommata (Je mehr Spielern du folgst, desto stärker der Ressourcenverbrauch)\nZ.B.: Notch,Dinnerbone,Grumm
+
+pip.config.prop.showPlayerName.name=Zeige Spielernamen
+pip.config.prop.showPlayerName.comment=Zeige den Spielernamen, wenn PiP aktiviert ist?
+
+pip.config.prop.pictureSize.name=PiP-Größe
+pip.config.prop.pictureSize.comment=Maximale Bildschirmgröße für jedes PiP-Fenster. 10% - 90%.\nAutomatisch verändert, wenn die Gesamtgröße über 100% liegt.
+
+pip.config.prop.corner.name=PiP-Ecke
+pip.config.prop.corner.comment=In welcher Ecke soll das Haupt-PiP gezeigt werden?\n1 = Oben Links\n2 = Oben Mitte\n3 = Oben Rechts\n4 = Mitte Links\n5 = Mitte Mitte (ernsthaft, wieso?)\n6 = Mitte Rechts\n7 = Unten Links\n8 = Unten Mitte\n9 = Unten Rechts
+
+pip.config.prop.alignment.name=PiP-Ausrichtung
+pip.config.prop.alignment.comment=Mehrere PiPs werden in welche Richtugn ausgerichtet?\n1 = Horizontal\n2 = Vertikal
+
+pip.config.prop.animation.name=Aktiviere PiP-Animationen?
+pip.config.prop.animation.comment=Aktiviere Animationen in den PiPs?
+
+pip.config.prop.transparency.name=PiP-Transparenz
+pip.config.prop.transparency.comment=Transparenzlevel der PiPs.\nSei gewarnt, dass die Layer sich überlagern, wenn sie semitransparent sind, z. B.: Hinterer Rand + Nebel + Tatsächliche Szene\n0 = Transparent\n100 = Komplett undurchsichtig
+
+pip.config.prop.transparencyMode.name=PiP-Transparenzmodus
+pip.config.prop.transparencyMode.comment=Transparenzmodus der PiP-Renderer.\n0 = Beide Renderer haben die selbe Transparenz.\n1 = Renderer nutzen die Transparenz wenn ausgeschaltet, sind aber undurchsichtig wenn eingeschaltet.\n2 = Renderer nutzen die Transparenz wenn eingeschaltet, aber sind undurchsichtig wenn ausgeschaltet.
