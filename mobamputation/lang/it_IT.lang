@@ -1,0 +1,31 @@
+mobamp.config.cat.clientOnly.name=Solo Client
+mobamp.config.cat.gameplay.name=Esperienza di gioco
+
+mobamp.config.cat.clientOnly.comment=QUeste impostazioni hanno effetto solo sull'applicazione client in cui e' installata la mod.
+mobamp.config.cat.gameplay.comment=Queste impostazioni cambiano l'esperienza di gioco.
+
+mobamp.config.prop.gibTime.name=Tempo di vita dell'arto
+mobamp.config.prop.gibGroundTime.name=Tempo di vita dell'arto a terra
+mobamp.config.prop.blood.name=Effetto sangue
+mobamp.config.prop.bloodCount.name=Quantitativo di particelle di sangue
+mobamp.config.prop.bloodSplurt.name=Sangue che zampilla dalle ferite
+mobamp.config.prop.greenBlood.name=Colore del Sangue Verde
+mobamp.config.prop.playerGibs.name=Arti del giocatore
+mobamp.config.prop.gibPushing.name=Arti che spostano entita
+mobamp.config.prop.headlessDeath.name=Morte senza testa
+mobamp.config.prop.toolEffect.name=Effetto degli strumenti
+mobamp.config.prop.gibChance.name=Possibilita degli arti
+mobamp.config.prop.projectileList.name=Proiettili influenzano gli arti
+
+mobamp.config.prop.gibTime.comment=Tempo totale di vita dell'arto
+mobamp.config.prop.gibGroundTime.comment=Tempo di vita dell'arto una volta che ha toccato terra
+mobamp.config.prop.blood.comment=GLi arti hanno sangue?
+mobamp.config.prop.bloodCount.comment=Numero di particelle di sangue per arto
+mobamp.config.prop.bloodSplurt.comment=Il sangue deve sgorgare dall'arto amputato?
+mobamp.config.prop.greenBlood.comment=Sangue verde al posto di rosso?
+mobamp.config.prop.playerGibs.comment=Posso amputare i giocatori?
+mobamp.config.prop.gibPushing.comment=GLi arti influenzano i percorsi dei mob?
+mobamp.config.prop.headlessDeath.comment=I mob senza testa devono subire danni massicci?
+mobamp.config.prop.toolEffect.comment=Gli strumenti devono avere possibilita diverse di amputare?
+mobamp.config.prop.gibChance.comment=Possibilita che un mob perda un arto.\nSolo se Effetto degli Strumenti e disattivato.
+mobamp.config.prop.projectileList.comment=Proiettili agiguntivi aumentano la possibilita di amputazioni.\nDefault chance e' 100%\n\n<NomeEntita>: <Percentuale>, <NomeEntita>, <NomeEntita> ecc\n\nEG:"Frecce: 100, Palle di neve: 50"
