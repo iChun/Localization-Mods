@@ -1,0 +1,19 @@
+mobdis.config.cat.clientOnly.name=Solo Client
+
+mobdis.config.cat.clientOnly.comment=Queste impostazioni hanno effetto solo sul client in cui e' installata questa mod.
+
+mobdis.config.prop.gibTime.name=Tempo di vita degli arti
+mobdis.config.prop.gibGroundTime.name=Tempo a terra degli arti
+mobdis.config.prop.blood.name=Effetto sangue
+mobdis.config.prop.bloodCount.name=Quatita delle particelle di sangue
+mobdis.config.prop.bloodSplurt.name=Sangue dalle ferite
+mobdis.config.prop.greenBlood.name=Colore sangue verde
+mobdis.config.prop.gibPushing.name=Arti spostano i mob
+
+mobdis.config.prop.gibTime.comment=Tempo totale di vita dell'arto
+mobdis.config.prop.gibGroundTime.comment=Tempo di vita dell'arto una volta che ha toccato terra
+mobdis.config.prop.blood.comment=Gli arti hanno sangue?
+mobdis.config.prop.bloodCount.comment=Numero di particelle di sangue per arto
+mobdis.config.prop.bloodSplurt.comment=Il sangue deve sgorgare dall'arto amputato?
+mobdis.config.prop.greenBlood.comment=Sangue verde al posto di rosso?
+mobdis.config.prop.gibPushing.comment=Gli arti influenzano i percorsi dei mob?

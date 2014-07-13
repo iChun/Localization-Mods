@@ -19,12 +19,12 @@ mobamp.config.prop.projectileList.name=Proiettili influenzano gli arti
 
 mobamp.config.prop.gibTime.comment=Tempo totale di vita dell'arto
 mobamp.config.prop.gibGroundTime.comment=Tempo di vita dell'arto una volta che ha toccato terra
-mobamp.config.prop.blood.comment=GLi arti hanno sangue?
+mobamp.config.prop.blood.comment=Gli arti hanno sangue?
 mobamp.config.prop.bloodCount.comment=Numero di particelle di sangue per arto
 mobamp.config.prop.bloodSplurt.comment=Il sangue deve sgorgare dall'arto amputato?
 mobamp.config.prop.greenBlood.comment=Sangue verde al posto di rosso?
 mobamp.config.prop.playerGibs.comment=Posso amputare i giocatori?
-mobamp.config.prop.gibPushing.comment=GLi arti influenzano i percorsi dei mob?
+mobamp.config.prop.gibPushing.comment=Gli arti influenzano i percorsi dei mob?
 mobamp.config.prop.headlessDeath.comment=I mob senza testa devono subire danni massicci?
 mobamp.config.prop.toolEffect.comment=Gli strumenti devono avere possibilita diverse di amputare?
 mobamp.config.prop.gibChance.comment=Possibilita che un mob perda un arto.\nSolo se Effetto degli Strumenti e disattivato.
