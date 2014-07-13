@@ -1,6 +1,6 @@
 mobdis.config.cat.clientOnly.name=Nur clientbasiert
 
-mobdis.config.cat.clientOnly.comment=Diese Einstellungen beeinflussen nur den Client, auf dem der Mod läuft.
+mobdis.config.cat.clientOnly.comment=Diese Einstellungen beeinflussen nur den Client, auf dem die Mod läuft.
 
 mobdis.config.prop.gibTime.name=Gliedmaß-Lebensdauer
 mobdis.config.prop.gibGroundTime.name=Gliedmaß-Bodenlebensdauer
