@@ -1,0 +1,19 @@
+mobdis.config.cat.clientOnly.name=Nur clientbasiert
+
+mobdis.config.cat.clientOnly.comment=Diese Einstellungen beeinflussen nur den Client, auf dem der Mod läuft.
+
+mobdis.config.prop.gibTime.name=Gliedmaß-Lebensdauer
+mobdis.config.prop.gibGroundTime.name=Gliedmaß-Bodenlebensdauer
+mobdis.config.prop.blood.name=Bluteffekte
+mobdis.config.prop.bloodCount.name=Blut-Partikelmenge
+mobdis.config.prop.bloodSplurt.name=Blut spritzt von Wunden
+mobdis.config.prop.greenBlood.name=Grünes Blut
+mobdis.config.prop.gibPushing.name=Gliedmaßen bewegen Entitys
+
+mobdis.config.prop.gibTime.comment=Gesamte Lebensdauer von Gliedmaßen
+mobdis.config.prop.gibGroundTime.comment=Lebensdauer von Gliedmaßen, sobald sie den Boden berührt haben
+mobdis.config.prop.blood.comment=Soll zerhacken Blut haben?
+mobdis.config.prop.bloodCount.comment=Menge der Blutpartikel pro Gliedmaß
+mobdis.config.prop.bloodSplurt.comment=Soll Blut aus der Wunde der Gliedmaße spritzen?
+mobdis.config.prop.greenBlood.comment=Soll Blut grün anstatt rot sein?
+mobdis.config.prop.gibPushing.comment=Schieben Gliedmaßen aktiv Mobs auf ihrem Weg herum?
