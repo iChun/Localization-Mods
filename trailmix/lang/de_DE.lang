@@ -2,7 +2,7 @@ trailmix.config.cat.potionEffect.name=Trankeffekt
 trailmix.config.cat.clientOnly.name=Nur clientbasiert
 
 trailmix.config.cat.potionEffect.comment=Einstellungen bezüglich des Studentenfutter-Trankeffektes
-trailmix.config.cat.clientOnly.comment=Diese Einstellungen beeinflussen nur den Client, auf dem der Mod läuft.
+trailmix.config.cat.clientOnly.comment=Diese Einstellungen beeinflussen nur den Client, auf dem die Mod läuft.
 
 trailmix.config.prop.potID.name=Trank-ID für das Studentenfutter
 trailmix.config.prop.potFireball.name=Feuerball-Skill
