@@ -14,7 +14,7 @@ pip.config.prop.updateFreq.name=Update Frequency
 pip.config.prop.updateFreq.comment=Frequency that the Picture-in-Picture updates in a second, at best attempt.\nSet to 0 to bind to render tick.
 
 pip.config.prop.playerCam.name=Player Cam
-pip.config.prop.playerCam.comment=Who's views are you trying to look through (No limit is applied, but I wouldn't recommend any more than 3)?\nSeparate player names with commas. (The more people you follow, the more heavy the resource demand)\nEG: Notch,Dinnerbone,Grumm
+pip.config.prop.playerCam.comment=Whose views are you trying to look through (No limit is applied, but I wouldn't recommend any more than 3)?\nSeparate player names with commas. (The more people you follow, the more heavy the resource demand)\nEG: Notch,Dinnerbone,Grumm
 
 pip.config.prop.showPlayerName.name=Show Player Name
 pip.config.prop.showPlayerName.comment=Show the player name when PiP is open?
