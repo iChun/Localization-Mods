@@ -10,5 +10,5 @@ death.attack.rptRand=%1$s был убит реактивным факелом
 
 item.TorchGun.name=Факеловое ружьё
 item.TorchRocket.name=Факел-ракета
-item.TorchFirework.name=Реактивный Факел
-item.TorchLauncher.name=РФ Лаунчер
+item.TorchFirework.name=Реактивный факел
+item.TorchLauncher.name=РФ метатель
