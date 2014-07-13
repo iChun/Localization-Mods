@@ -1,5 +1,5 @@
 pip.config.cat.clientOnly.name=Nur clientbasiert
-pip.config.cat.clientOnly.comment=Diese Einstellungen beeinflussen nur den Client, auf dem die Mod läuft.
+pip.config.cat.clientOnly.comment=Diese Einstellungen beeinflussen nur den Client, auf dem der Mod läuft.
 
 pip.config.prop.pipToggle.name=PiP-Schalter
 pip.config.prop.pipToggle.comment=Taste, auf der der PiP-Schalter liegt.
