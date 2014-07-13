@@ -1,8 +1,8 @@
 mobamp.config.cat.clientOnly.name=Nur clientbasiert
 mobamp.config.cat.gameplay.name=Gameplay
 
-mobamp.config.cat.clientOnly.comment=Diese Einstellungen beeinflussen nur den Client, auf dem die Mod läuft.
-mobamp.config.cat.gameplay.comment=Diese Einstellungen beeinflussen das Gameplay, während die Mod läuft.
+mobamp.config.cat.clientOnly.comment=Diese Einstellungen beeinflussen nur den Client, auf dem der Mod läuft.
+mobamp.config.cat.gameplay.comment=Diese Einstellungen beeinflussen das Gameplay, während der Mod läuft.
 
 mobamp.config.prop.gibTime.name=Gliedmaß-Lebensdauer
 mobamp.config.prop.gibGroundTime.name=Gliedmaß-Bodenlebensdauer
