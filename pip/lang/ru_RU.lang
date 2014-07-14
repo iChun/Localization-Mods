@@ -1,0 +1,57 @@
+pip.config.cat.clientOnly.name=Только для клиента
+pip.config.cat.clientOnly.comment=Эти настройки действуют только на клиенте.
+
+pip.config.prop.pipToggle.name=Сменить режим PiP
+pip.config.prop.pipToggle.comment=Клавиша, которая включает или выключает Picture-in-Picture
+
+pip.config.prop.pipIcons.name=Показать иконки PiP
+pip.config.prop.pipIcons.comment=Показывать PiP иконки не зависимо от того, включен PiP или нет?
+
+pip.config.prop.pipView.name=Вид PiP
+pip.config.prop.pipView.comment=Какой вид должен быть включен PiP по умолчанию?\n0 = От первого лица\n1 = От третьего лица (сзади)\n2 = От третьего лица (спереди)
+
+pip.config.prop.updateFreq.name=Частота обновления
+pip.config.prop.updateFreq.comment=Частота, с которой Picture-in-Picture должен обновляться в секунду.\nВведите 0, чтобы привязать к тику прорисовки мира.
+
+pip.config.prop.playerCam.name=Камеры игрока
+pip.config.prop.playerCam.comment=Кого вы хотите просматривать с помощью PiP? (Лимита нет, но я бы рекомендовал не более 3)?\nРазделяйте имена игроков запятой. (Чем больше людей Вы просматриваете, тем больше ресурсов компьютера тратится!)\nПример: Notch,Dinnerbone,Grumm
+
+pip.config.prop.showPlayerName.name=Показывать имя игрока
+pip.config.prop.showPlayerName.comment=Показывать имя игрока, когда PiP включен?
+
+pip.config.prop.pictureSize.name=Размер Picture-in-Picture
+pip.config.prop.pictureSize.comment=Размер каждого Picture-in-Picture. 10% - 90%.\nАвтоматически изменяет размер, когда PiP-ы занимают больше, чем 100% места на экране.
+
+pip.config.prop.corner.name=Угол PiP
+pip.config.prop.corner.comment=В каком углу должен находиться PiP?\n1 = Левый верхний\n2 = Сверху\n3 = Правый верхний\n4 = Слева\n5 = По-центру(серьезно, зачем?)\n6 = Справа\n7 = Слева снизу\n8 = Снизу\n9 = Справа снизу
+
+pip.config.prop.alignment.name=Выравнивание PiP
+pip.config.prop.alignment.comment=В каком направлении PiP-ы будут выравниваться?\n1 = Горизонтальном\n2 = Вертикальном
+
+pip.config.prop.animation.name=Включить анимацию PiP?
+pip.config.prop.animation.comment=Включить анимацию на PiP-ах
+
+pip.config.prop.transparency.name=Прозрачность PiP
+pip.config.prop.transparency.comment=Уровень прозрачности на PiP-ах.\nЗаметьте, что различные слои будут сливаться когда полупрозрачны. Пример: Тень и обводка + туман + мир\n0 = Полностью невидимый\n100 = Непрозрачный
+
+pip.config.prop.transparencyMode.name=Режим прозрачности PiP
+pip.config.prop.transparencyMode.comment=Режим прозрачности на PiP-ах.\n0 = Оба рендера имеют одинаковую прозрачном\n1 = Renders use the transparency setting when turned off, but fully opaque when toggled on\n2 = Renders use the transparency setting when turned on, but fully opaque when toggled off.
+
+pip.config.prop.range.name=PiP Range
+pip.config.prop.range.comment=Max Range players will be tracked. Set to 0 to allow unlimited.\nRange is on best-effort basis, if the player is too far, then they're too far.
+
+pip.viewing=Viewing
+pip.noFrameBuffer=Framebuffers are not supported on your system! PiP will not work!
+
+pip.command.help=Enter command for list of arguments.
+
+pip.command.add=/pip <add> <player>           Add player to view list
+pip.command.remove=/pip <remove> <player>           Remove player from view list
+
+pip.command.add.success=Player added!
+pip.command.add.alreadyAdded=Player already in view list!
+
+pip.command.remove.success=Player removed!
+pip.command.add.alreadyRemoved=Player is not in list!
+
+pip.command.specifyPlayer=Specify a player name!
