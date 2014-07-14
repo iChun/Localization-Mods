@@ -35,23 +35,23 @@ pip.config.prop.transparency.name=Прозрачность PiP
 pip.config.prop.transparency.comment=Уровень прозрачности на PiP-ах.\nЗаметьте, что различные слои будут сливаться когда полупрозрачны. Пример: Тень и обводка + туман + мир\n0 = Полностью невидимый\n100 = Непрозрачный
 
 pip.config.prop.transparencyMode.name=Режим прозрачности PiP
-pip.config.prop.transparencyMode.comment=Режим прозрачности на PiP-ах.\n0 = Оба рендера имеют одинаковую прозрачном\n1 = Renders use the transparency setting when turned off, but fully opaque when toggled on\n2 = Renders use the transparency setting when turned on, but fully opaque when toggled off.
+pip.config.prop.transparencyMode.comment=Режим прозрачности на PiP-ах.\n0 = Оба рендера имеют одинаковую прозрачность\n1 = Рендеры используют настройку прозрачности, когда выключены, и в непрозрачном режиме\n2 = Рендеры используют настройку прозрачности, когда включены, но не в непрозрачном режиме.
 
-pip.config.prop.range.name=PiP Range
-pip.config.prop.range.comment=Max Range players will be tracked. Set to 0 to allow unlimited.\nRange is on best-effort basis, if the player is too far, then they're too far.
+pip.config.prop.range.name=Радиус PiP
+pip.config.prop.range.comment=Максимальный радиус, с которого Вы будете следить за игроками. Введите 0, чтобы не ограничивать.\nМаксимальное возможное расстояние зависит от дальности прорисовки.
 
-pip.viewing=Viewing
-pip.noFrameBuffer=Framebuffers are not supported on your system! PiP will not work!
+pip.viewing=Просмотр
+pip.noFrameBuffer=Буферизация фреймов не поддерживается на Вашем компьютере. PiP не будет работать!
 
-pip.command.help=Enter command for list of arguments.
+pip.command.help=Введите команду, чтобы показать ее дополнительные параметры.
 
-pip.command.add=/pip <add> <player>           Add player to view list
-pip.command.remove=/pip <remove> <player>           Remove player from view list
+pip.command.add=/pip <add> <player>           Добавить игрока в Ваши PiP-ы
+pip.command.remove=/pip <remove> <player>           Убрать игрока из Ваших PiP-ов
 
-pip.command.add.success=Player added!
-pip.command.add.alreadyAdded=Player already in view list!
+pip.command.add.success=Игрок добавлен!
+pip.command.add.alreadyAdded=Игрок уже в Ваших PiP-ах!
 
-pip.command.remove.success=Player removed!
-pip.command.add.alreadyRemoved=Player is not in list!
+pip.command.remove.success=Игрок убран!
+pip.command.add.alreadyRemoved=Игрок не в Ваших PiP-ах!
 
-pip.command.specifyPlayer=Specify a player name!
+pip.command.specifyPlayer=Введите имя игрока!
