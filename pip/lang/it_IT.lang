@@ -1,0 +1,57 @@
+pip.config.cat.clientOnly.name=Solo Client
+pip.config.cat.clientOnly.comment=Queste impostazioni hanno effetto solo sul client su cui è installata la mod.
+
+pip.config.prop.pipToggle.name=Interruttore PiP
+pip.config.prop.pipToggle.comment=Tasto impostato per attivare Picture-in-Picture.
+
+pip.config.prop.pipIcons.name=Mostra l'icona di PiP
+pip.config.prop.pipIcons.comment=Mostra l'icona ignorando che la mod sia o meno attiva?
+
+pip.config.prop.pipView.name=Visuale PiP
+pip.config.prop.pipView.comment=Quale deve essere la visuale di PiP?\n0 = Prima persona\n1 = Terza persona (da dietro)\n2 = Terza persona (da davanti)
+
+pip.config.prop.updateFreq.name=Frequenza di aggiornamento
+pip.config.prop.updateFreq.comment=Frequenza con cui Picture-in-Picture si aggiorna in un secondo, nel caso migliore.\nMettilo a 0 per legarlo al tick di render.
+
+pip.config.prop.playerCam.name=Telecamera giocatore
+pip.config.prop.playerCam.comment=Attraverso che visuale stai cercando di guardare? (Non c'e' un limite ma non garantisco piu' di 3 giocatori)?\nSepara i nomi con una virgola. (Piu' giocatori segui piu' e' alta la richiesta di risorse)\nEsempio: Notch,Dinnerbone,Grumm
+
+pip.config.prop.showPlayerName.name=Mostra nome giocatori
+pip.config.prop.showPlayerName.comment=Mostra i nomi dei giocatori quando PiP è stata utilizzata?
+
+pip.config.prop.pictureSize.name=Dimensione di Picture-in-Picture
+pip.config.prop.pictureSize.comment=Dimensione massima di ogni Picture-in-Picture. 10% - 90%.\nAutomaticamente ridimensionata quando il rendering di PiPs supera il 100%.
+
+pip.config.prop.corner.name=Angolo PiP
+pip.config.prop.corner.comment=Qual'e' l'angolo principale per il rendering del PiP?\n1 = Alto sinistra\n2 = Alto centro\n3 = Alto destra\n4 = Centro a sinistra\n5 = Centro centro(perche' usarlo?)\n6 = Centro destra\n7 = Basso a sinistra\n8 = Basso al centro\n9 = Basso a destra
+
+pip.config.prop.alignment.name=Allineamento dei PiP
+pip.config.prop.alignment.comment=Se ho piu' PiP in che modo si allineano?\n1 = Orizzontale\n2 = Verticale
+
+pip.config.prop.animation.name=Animazioni PiP?
+pip.config.prop.animation.comment=Abilitare le animazioni in PiP?
+
+pip.config.prop.transparency.name=Trasparenza PiP
+pip.config.prop.transparency.comment=Grado di trasparenza nel renderizzare PiP.\nSe semitrasparenti i livelli possono collidere, EG: Livello di fondale + livello di rendering della nebbia + livello della scena reale\n0 = Trasparente\n100 = Fully Opaco
+
+pip.config.prop.transparencyMode.name=Modalita della strasparenza del PiP
+pip.config.prop.transparencyMode.comment=Modalita della strasparenza dei render PiP.\n0 = I rendering hanno la stessa trasparenza\n1 = I rendering usano le impostazioni della trasparenza quando disattivato, ma completamente opaco quando attivato\n2 = I rendering usano l'impostazione della trasparenza quando attivo ma sono completamente opachi quando disattivo.
+
+pip.config.prop.range.name=Raggio PiP
+pip.config.prop.range.comment=Distanza massima di visione. Setta su 0 per averla illimitata.\nSe il giocatore e' troppo lontano non e' possibile vedere la sua visuale.
+
+pip.viewing=Visione
+pip.noFrameBuffer=Il tuo sistema non supporta il framebuffer! PiP non funzionera'!
+
+pip.command.help=Inserisci un comando per una lista di parametri.
+
+pip.command.add=/pip <add> <player>           Aggiungi il giocatore dalla lista di osservazione
+pip.command.remove=/pip <remove> <player>           Rimuovi il giocatore dalla lista di osservazione
+
+pip.command.add.success=Giocatore aggiunto!
+pip.command.add.alreadyAdded=Giocatore gia' presente nella lista di osservazione!
+
+pip.command.remove.success=Giocatore rimosso!
+pip.command.add.alreadyRemoved=Il giocatore non e' presente nella lista di osservazione!
+
+pip.command.specifyPlayer=Specify a player name!
