@@ -1,0 +1,31 @@
+mobamp.config.cat.clientOnly.name=Cliente
+mobamp.config.cat.gameplay.name=Juego
+
+mobamp.config.cat.clientOnly.comment=Estas opciones afectan solo al cliente.
+mobamp.config.cat.gameplay.comment=Estas opciones afectan al juego cuando se usa el mod.
+
+mobamp.config.prop.gibTime.name=Tiempo de vida del miembro
+mobamp.config.prop.gibGroundTime.name=Tiempo en el suelo del miembro
+mobamp.config.prop.blood.name=Sangre
+mobamp.config.prop.bloodCount.name=Número de particulas de sangre
+mobamp.config.prop.bloodSplurt.name=Sangre saliendo de las heridas
+mobamp.config.prop.greenBlood.name=Color de la sangre verde
+mobamp.config.prop.playerGibs.name=Desmembramiento de jugadores
+mobamp.config.prop.gibPushing.name=El miembro empuja entidades
+mobamp.config.prop.headlessDeath.name=Muerte sin cabeza
+mobamp.config.prop.toolEffect.name=Efectos de herramientas
+mobamp.config.prop.gibChance.name=Probabilidad de amputar
+mobamp.config.prop.projectileList.name=Proyectiles que afectan a la amputación
+
+mobamp.config.prop.gibTime.comment=Tiempo que los miembros pueden vivir
+mobamp.config.prop.gibGroundTime.comment=tiempo de vida de los miembros cuando tocan el suelo
+mobamp.config.prop.blood.comment=Debería tener sangre el miembro?
+mobamp.config.prop.bloodCount.comment=Cantidad de particulas de sangre por miembro
+mobamp.config.prop.bloodSplurt.comment=Debería salir sangre de la herida?
+mobamp.config.prop.greenBlood.comment=Debería ser la sangre verde en vez de roja?
+mobamp.config.prop.playerGibs.comment=Se puede amputar a los jugadores?
+mobamp.config.prop.gibPushing.comment=Los miembros empujan activamente a las entidades en su camino?
+mobamp.config.prop.headlessDeath.comment=Deberian los mobs sin cabeza recibir daño masivo?
+mobamp.config.prop.toolEffect.comment=Deberían las herramientas afectar a la probabilidad de amputar?
+mobamp.config.prop.gibChance.comment=Probabilidad de amputar a los mobs.\nSolo si los efectos de herramientas están desactivados.
+mobamp.config.prop.projectileList.comment=Proyectiles adicionales que afectan a la amputación.\nLa probabilidad por defecto es 100%\n\n<EntityName>: <Chance out of 100>, <EntityName>, <EntityName> etc\n\nEG:"Flechas: 100, Bolas de nieve: 50"
