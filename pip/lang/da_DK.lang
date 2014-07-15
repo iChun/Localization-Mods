@@ -1,0 +1,57 @@
+pip.config.cat.clientOnly.name=Kun Klient
+pip.config.cat.clientOnly.comment=Disse indstillinger påvirker den klient, der kører moddet.
+
+pip.config.prop.pipToggle.name=PiP Skift
+pip.config.prop.pipToggle.comment=Keybind, der skifter Picture-in-Picture på.
+
+pip.config.prop.pipIcons.name=Vis PiP Ikoner
+pip.config.prop.pipIcons.comment=Vis PiP Ikoner uanset om PiP'et er slået til eller ej?
+
+pip.config.prop.pipView.name=Vis PiP
+pip.config.prop.pipView.comment=Hvad standardvisning skal vises i PiP? \ N0 = Første person, \ n 1 = Tredje person (fra bagsiden) \ N 2 = Tredje person (forfra)
+
+pip.config.prop.updateFreq.name=Opdater Frekvens
+pip.config.prop.updateFreq.comment=Frekvens, Picture-in-Picture opdateringerne i en anden, i bedste forsøg. \ Nsetp til 0 for at binde sig til gengive kryds.
+
+pip.config.prop.playerCam.name=Spiller Kamera
+pip.config.prop.playerCam.comment=Hvis synspunkter er du forsøger at se gennem (Ingen grænse er anvendt, men jeg vil ikke anbefale nogen mere end 3)? \ NSeparate spiller navne med kommaer. (Jo flere mennesker, du følger, jo mere tung efterspørgslen ressource) \ Neg: Notch, Dinnerbone, Grumm
+
+pip.config.prop.showPlayerName.name=Vis Spiller Navn
+pip.config.prop.showPlayerName.comment=Vis spillerens navn, når PiP er åbent?
+
+pip.config.prop.pictureSize.name=Picture-in-Picture Størelse
+pip.config.prop.pictureSize.comment=Max størrelse på skærmen for hver Picture-in-Picture. 10% -. 90% \ nAutomatically skaleres når Pips rendering overstiger 100% plads.
+
+pip.config.prop.corner.name=PiP Hjørne
+pip.config.prop.corner.comment=Hvilket hjørne betyder primære PiP render ind? \ = Top Left \ n2 n1 = Top Center \ = Top Right \ n4 n3 = Middle Left \ n5 = Middle Center (alvorligt, hvorfor dog?) \ = Midt Højre \ n7 N6 = Bund venstre \ N 8 = Bund center \ N9 = Nederst til højre
+
+pip.config.prop.alignment.name=PiP Justering
+pip.config.prop.alignment.comment=Flere PiPs vil bringe i hvilken retning? \ N 1 = Vandret \ n2 = Lodret
+
+pip.config.prop.animation.name=Aktiver PiP animation?
+pip.config.prop.animation.comment=Aktiver animation på PiPs?
+
+pip.config.prop.transparency.name=PiP gennemsigtighed
+pip.config.prop.transparency.comment=Gennemsigtighed niveau PiP gør \ NBE informeret om, at der lag vil kollidere når semi transparent, EG:. Backdrop grænse lag + tåge render lag + scene lag \ n0 faktiske = Transparent \ n100 = Fuldt uigennemsigtig
+
+pip.config.prop.transparencyMode.name=PiP Gennemsigtighed tilstand
+pip.config.prop.transparencyMode.comment=Gennemsigtighed Mode PiP gør. \ N0 = Begge gør den samme gennemsigtighed \ n1 = Renders bruge gennemsigtighed indstillingen når den er slukket, men helt uigennemsigtig når slås til \ n2 = Renders bruge gennemsigtighed indstilling, når den tændes, men helt uigennemsigtig når slås fra.
+
+pip.config.prop.range.name=PiP interval
+pip.config.prop.range.comment=Max interval spillere vil blive sporet. Sæt til 0 for at tillade ubegrænset. \ NRange er på bedst mulig måde, hvis spilleren er for langt, så de er alt for langt.
+
+pip.viewing=visning
+pip.noFrameBuffer=Framebuffer understøttes ikke på dit system! PiP vil ikke arbejde!
+
+pip.command.help=Indtast kommandoen for listen over argumenter.
+
+pip.command.add=/pip <add> <player>           Tilføj spilleren se listen
+pip.command.remove=/pip <remove> <player>           Fjern spilleren at listen
+
+pip.command.add.success=Spiller tilføjet!
+pip.command.add.alreadyAdded=Spiller er allerede føjet til se listen!
+
+pip.command.remove.success=Spiller fjernet!
+pip.command.add.alreadyRemoved=Spilleren er ikke i listen!
+
+pip.command.specifyPlayer=Angiv en spiller navn!
