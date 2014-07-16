@@ -1,14 +1,14 @@
 death.attack.torched=%1$s ha sido herido por una antorcha de %2$s
 death.attack.torchedSelf=%1$s se ha herido con una antorcha
 death.attack.torchedRand=%1$s ha sido herido por una antorcha perdida
-death.attack.torchedFire=%2$s lanzo fuego sobre %1$s
-death.attack.torchedFireSelf=%1$s lanzo fuego sobre si mismo
+death.attack.torchedFire=%2$s lanzó fuego sobre %1$s
+death.attack.torchedFireSelf=%1$s lanzó fuego sobre si mismo
 
-death.attack.rpt=%2$s lanzo una antorcha propulsada a %1$s
+death.attack.rpt=%2$s lanzó una antorcha propulsada a %1$s
 death.attack.rptSelf=%1$s se ha herido con una antorcha propulsada lanzada por si mismo
 death.attack.rptRand=%1$s ha sido herido con una antorcha propulada
 
 item.TorchGun.name=Pistola de Antorchas
 item.TorchRocket.name=Cohete de Antorchas
 item.TorchFirework.name=Antorcha Propulsada
-item.TorchLauncher.name=Bazzoka de Antorchas
+item.TorchLauncher.name=Bazooka de Antorchas
