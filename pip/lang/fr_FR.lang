@@ -1,0 +1,57 @@
+pip.config.cat.clientOnly.name=Côté client seulement
+pip.config.cat.clientOnly.comment=Ces paramètres affectent seulement le client utilisant le mod.
+
+pip.config.prop.pipToggle.name=Activation PiP
+pip.config.prop.pipToggle.comment=Touche qui active ou désactive Picture-in-Picture.
+
+pip.config.prop.pipIcons.name=Montre les icônes PiP
+pip.config.prop.pipIcons.comment=Montre les icônes PiP que PiP soit activé ou pas?
+
+pip.config.prop.pipView.name=Vue PiP
+pip.config.prop.pipView.comment=Quelle vue par défaut devrait être affichée dans PiP?\n0 = Première personne\n1 = Troisième personne (dos)\n2 = Troisième personne (face)
+
+pip.config.prop.updateFreq.name=Fréquence de mise à jour
+pip.config.prop.updateFreq.comment=Fréquence à laquelle Picture-in-Picture s'actualise en une seconde, autant que possible.\nMettez à 0 pour assigner à la vitesse d'affichage.
+
+pip.config.prop.playerCam.name=Caméra joueur
+pip.config.prop.playerCam.comment=Quelles vues essayez vous de regarder (Il n'y a aucune limite, mais je ne conseille pas plus de 3)?\nSéparez les noms de joueurs avec des virgules. (Plus vous suivez de joueurs, plus cela demandera de ressources)\nExemple: Notch,Dinnerbone,Grumm
+
+pip.config.prop.showPlayerName.name=Afficher le nom du joueur
+pip.config.prop.showPlayerName.comment=Afficher le nom du joueur quand PiP est ouvert ?
+
+pip.config.prop.pictureSize.name=Taille de Picture-in-Picture
+pip.config.prop.pictureSize.comment=Taille maxi de l'écran pour chaque Picture-in-Picture. 10% - 90%.\nRedimensionné automatiquement quand l'affichage PiP dépasse 100%.
+
+pip.config.prop.corner.name=Coin pour PiP
+pip.config.prop.corner.comment=Dans quel coin doit s'afficher le PiP primaire ?\n1 = En haut à gauche\n2 = En haut au centre\n3 = En haut à droite\n4 = Au milieu à gauche\n5 = Au milieu au centre(Franchement, pourquoi vous feriez ça ?)\n6 = Au milieu à droite\n7 = En bas à gauche\n8 = En bas au centre\n9 = En bas à droite
+
+pip.config.prop.alignment.name=Alignement de PiP
+pip.config.prop.alignment.comment=Dans quelle direction plusieurs afficheurs PiP doivent s'aligner ?\n1 = Horizontale\n2 = Verticale
+
+pip.config.prop.animation.name=Activer l'animation PiP?
+pip.config.prop.animation.comment=Activer une animation sur les afficheurs PiP ?
+
+pip.config.prop.transparency.name=Transparence de PiP
+pip.config.prop.transparency.comment=Niveau de transparence des afficheurs PiP.\nSoyez conscient que ces couches vont se superposer si elles sont semi transparentes, exemple: couche du bord de la trame de fond + couche du brouillard + couche de l'affichage réel\n0 = Transparent\n100 = Complètement opaque
+
+pip.config.prop.transparencyMode.name=Mode de transparence de PiP
+pip.config.prop.transparencyMode.comment=Mode de transparence des afficheurs PiP.\n0 = Les deux afficheurs ont la même transparence\n1 = Les afficheurs utilisent le réglage de transparence quand ils sont désactivés, et deviennent opaque quand ils sont activés\n2 = Les afficheurs utilisent le réglage de transparence quand ils sont activés, et deviennent opaques quand ils sont désactivés.
+
+pip.config.prop.range.name=Portée de PiP
+pip.config.prop.range.comment=Portée maximale pour suivre un joueur. Mettez à 0 pour autoriser une portée illimitée.\nLa portée est un réglage "au mieux", si le joueur est trop loin, alors il est trop loin, pas la peine de chercher ailleurs.
+
+pip.viewing=Vue
+pip.noFrameBuffer=Le cache vidéo n'est pas supporté sur votre system ! PiP ne fonctionnera pas !
+
+pip.command.help=Entrez une commande pour voir la liste des arguments.
+
+pip.command.add=/pip <add> <player>           Ajoute un joueur à la liste des joueurs suivis
+pip.command.remove=/pip <remove> <player>           Retire un joueur de la liste des joueurs suivis
+
+pip.command.add.success=Joueur ajouté !
+pip.command.add.alreadyAdded=Joueur déjà dans la liste !
+
+pip.command.remove.success=Joueur retiré !
+pip.command.add.alreadyRemoved=Joueur inexistant dans la liste !
+
+pip.command.specifyPlayer=Spécifiez un nom de joueur !

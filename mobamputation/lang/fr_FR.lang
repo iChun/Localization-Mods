@@ -1,0 +1,31 @@
+mobamp.config.cat.clientOnly.name=Côté client seulement
+mobamp.config.cat.gameplay.name=Jouabilité
+
+mobamp.config.cat.clientOnly.comment=Ces paramètres affectent seulement le client utilisant le mod.
+mobamp.config.cat.gameplay.comment=Ces options affectent la jouabilité pendant l'utilisation du mod.
+
+mobamp.config.prop.gibTime.name=Durée de vie d'un membre
+mobamp.config.prop.gibGroundTime.name=Durée au sol d'un membre
+mobamp.config.prop.blood.name=Particules de sang
+mobamp.config.prop.bloodCount.name=Quantité de particules de sang
+mobamp.config.prop.bloodSplurt.name=Jets de sang des blessures
+mobamp.config.prop.greenBlood.name=Sang vert
+mobamp.config.prop.playerGibs.name=Joueur démembrable
+mobamp.config.prop.gibPushing.name=Les membres poussent les entités
+mobamp.config.prop.headlessDeath.name=Mort par décapitation
+mobamp.config.prop.toolEffect.name=Effet d'un outil
+mobamp.config.prop.gibChance.name=Probabilité de démembrement
+mobamp.config.prop.projectileList.name=Projectiles qui affectent les membres
+
+mobamp.config.prop.gibTime.comment=Durée de vie totale d'un membre
+mobamp.config.prop.gibGroundTime.comment=Durée de vie d'un membre une fois qu'il a touché le sol
+mobamp.config.prop.blood.comment=Est-ce qu'un membre doit saigner ?
+mobamp.config.prop.bloodCount.comment=Quantité de particules de sang générées par membre découpé
+mobamp.config.prop.bloodSplurt.comment=Est-ce que le sang devrait sortir d'une blessure ?
+mobamp.config.prop.greenBlood.comment=Est-ce que le sang devrait être vert au lieu d'être rouge ?
+mobamp.config.prop.playerGibs.comment=Est-ce que les joueurs peuvent être démembrés ?
+mobamp.config.prop.gibPushing.comment=Est-ce que les membres peuvent pousser les entités ?
+mobamp.config.prop.headlessDeath.comment=Est-ce que les monstres sans tête doivent prendre de gros dommages ?
+mobamp.config.prop.toolEffect.comment=Est-ce que les outils affectent la probabilité de démembrement?
+mobamp.config.prop.gibChance.comment=Probabilité qu'un monstre puisse être démembré.\nSeulement quand l'effet d'un outil est désactivé.
+mobamp.config.prop.projectileList.comment=Projectiles supplémentaires qui affectent le démembrement.\nProbabilité par défaut: 100%\n\n<NomEntité>: <Probabilité sur 100>, <NomEntité>, <NomEntité> etc\n\nExemple:"Arrow: 100, Snowball: 50"
