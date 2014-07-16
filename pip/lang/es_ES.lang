@@ -17,7 +17,7 @@ pip.config.prop.playerCam.name=Cámaras de jugadores
 pip.config.prop.playerCam.comment=Los jugadores que quieres ver a la vez (No hay límite, pero no se recomiendan más de tres)?\nSeparar nombres por comas. (Cuantos más sigas, más recursos consumirá)\nEj: Notch,Dinnerbone,Grumm
 
 pip.config.prop.showPlayerName.name=Mostrar nombre del jugador
-pip.config.prop.showPlayerName.comment=Mostar el nombre cuando el PiP está activo?
+pip.config.prop.showPlayerName.comment=¿Mostar el nombre cuando el PiP está activo?
 
 pip.config.prop.pictureSize.name=Tamaño del PiP
 pip.config.prop.pictureSize.comment=Tamaño máximo del PiP. 10% - 90%.\nAutomaticamente reajustado cuando excede el 100%.
@@ -26,10 +26,10 @@ pip.config.prop.corner.name=Esquina del PiP
 pip.config.prop.corner.comment=En que esquina aparece el PiP?\n1 = Arriba Izquierda\n2 = Arriba Centro\n3 = Arriba Derecha\n4 = Centro izquierda\n5 = Centro(En serio, para qué?)\n6 = centro derecha\n7 = Abajo Izquierda\n8 = Abajo Centro\n9 = Abajo Derecha
 
 pip.config.prop.alignment.name=A lineamiento de los PiP
-pip.config.prop.alignment.comment=Multiples PiPs se alinearán en que dirección?\n1 = Horizontal\n2 = Vertical
+pip.config.prop.alignment.comment=¿Multiples PiPs se alinearán en que dirección?\n1 = Horizontal\n2 = Vertical
 
-pip.config.prop.animation.name=Activar animación del PiP?
-pip.config.prop.animation.comment=Activar la animación de los PiPs?
+pip.config.prop.animation.name=¿Activar animación del PiP?
+pip.config.prop.animation.comment=¿Activar la animación de los PiPs?
 
 pip.config.prop.transparency.name=Transparencia de los PiP
 pip.config.prop.transparency.comment=Transparencia con la que el PiP se renderiza.\nTen en cuenta que las capas de van sumando, Ej: Capa del fondo + capa de la niebla + Capa de la escena\n0 = Transparente\n100 = Completamente opcaco
@@ -41,17 +41,17 @@ pip.config.prop.range.name=Rango del PiP
 pip.config.prop.range.comment=Rango máximo en el que se sigue a los jugadores. 0 = ilimitado.\nEl rango hace el máximo esfuerzo, si están muy lejos, están muy lejos.
 
 pip.viewing=Vista
-pip.noFrameBuffer=Tu sistema no soporta Framebuffers! PiP no funcionará
+pip.noFrameBuffer=¡Tu sistema no soporta Framebuffers! PiP no funcionará
 
 pip.command.help=Introduzca el comando par ver la lista de argumentos.
 
 pip.command.add=/pip <add> <player>           Añade jugador a la lista
 pip.command.remove=/pip <remove> <player>           Elimina jugador de la lista
 
-pip.command.add.success=Jugador añadido!
-pip.command.add.alreadyAdded=El jugador ya está en la lista!
+pip.command.add.success=¡Jugador añadido!
+pip.command.add.alreadyAdded=¡El jugador ya está en la lista!
 
-pip.command.remove.success=Jugador eliminado!
-pip.command.add.alreadyRemoved=El jugador no está en la lista!
+pip.command.remove.success=¡Jugador eliminado!
+pip.command.add.alreadyRemoved=¡El jugador no está en la lista!
 
-pip.command.specifyPlayer=Especifica un jugador!
+pip.command.specifyPlayer=¡Especifica un jugador!
