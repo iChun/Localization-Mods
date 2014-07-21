@@ -1,0 +1,31 @@
+mobamp.config.cat.clientOnly.name=Endast Klient
+mobamp.config.cat.gameplay.name=Spel
+
+mobamp.config.cat.clientOnly.comment=Dessa inställningar påverkar bara klienten med modifikationen.
+mobamp.config.cat.gameplay.comment=Dessa inställningar påverkar spelet.
+
+mobamp.config.prop.gibTime.name=Avhuggning livstid
+mobamp.config.prop.gibGroundTime.name=Avhuggning marktid
+mobamp.config.prop.blood.name=Blodseffekter
+mobamp.config.prop.bloodCount.name=Mängd blodpartiklar
+mobamp.config.prop.bloodSplurt.name=Blodseffekter i sår
+mobamp.config.prop.greenBlood.name=Grönt blod
+mobamp.config.prop.playerGibs.name=Spelaravhuggning
+mobamp.config.prop.gibPushing.name=Kollision med avhuggna delar
+mobamp.config.prop.headlessDeath.name=Huvudlös död
+mobamp.config.prop.toolEffect.name=Verktygseffekt
+mobamp.config.prop.gibChance.name=Avhuggnignschans
+mobamp.config.prop.projectileList.name=Projektil som påverkar avhuggning
+
+mobamp.config.prop.gibTime.comment=Tid som avhuggna delar kan leva (helt och lållet)
+mobamp.config.prop.gibGroundTime.comment=Tid som avhuggna delar han leva från att de slår i marken
+mobamp.config.prop.blood.comment=Ska avhuggnign ah blod?
+mobamp.config.prop.bloodCount.comment=Antal blodpartiklar som skapas vid avhuggning
+mobamp.config.prop.bloodSplurt.comment=Borde blod spruta ut från såret vid avhuggningen?
+mobamp.config.prop.greenBlood.comment=Borde blodet vara grönt i stället för rött?
+mobamp.config.prop.playerGibs.comment=Kan spelare bli avhuggna?
+mobamp.config.prop.gibPushing.comment=Knuffar avhuggna delar mobs och spelare?
+mobamp.config.prop.headlessDeath.comment=Borde mobs utan huvud ta massor av skada?
+mobamp.config.prop.toolEffect.comment=Borde verktyp påverka chansen för att hugga av kroppsdelar?
+mobamp.config.prop.gibChance.comment=Chans för att hugga av.\nEndast när verktygseffekten är på.
+mobamp.config.prop.projectileList.comment=Fler projektiler som påverkar avhuggning.\nStandadchans är 100%\n\n<Projektilnamn>: <Chans i procent>, <Projektilnamn>, <Projektilnamn> etc\n\nex:"Arrow: 100, Snowball: 50"
