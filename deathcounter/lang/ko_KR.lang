@@ -1,0 +1,8 @@
+dc.message.deathAndRank=죽은횟수: %1$s 랭크: %2$s
+dc.message.death=당신은 %s번 사망하셧습니다..
+dc.message.rank=당신은 서버내에서 %s번째로 사망을 많이 하신 분입니다.
+dc.command.resetAll=DC: 모든 플레이어의 사망횟수가 초기화 되었습니다
+dc.command.resetPlayer=DC:%s님의 사망횟수가 초기화 되었습니다
+dc.command.noDeathsPlayer=DC: %s님은 사망하신 전적이 없습니다
+dc.command.noDeaths=아직 서버에서 사망자가 발생하지 않았습니다
+dc.command.leaderboard=사망 카운터:
