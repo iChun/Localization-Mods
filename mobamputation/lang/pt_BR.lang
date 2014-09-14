@@ -1,0 +1,19 @@
+mobdis.config.cat.clientOnly.name=Cliente
+
+mobdis.config.cat.clientOnly.comment=Estas opções afetam somente ao cliente.
+
+mobdis.config.prop.gibTime.name=Tempo de vida do membro
+mobdis.config.prop.gibGroundTime.name=Tempo no solo do membro
+mobdis.config.prop.blood.name=Sangue
+mobdis.config.prop.bloodCount.name=Número de partículas de sangue
+mobdis.config.prop.bloodSplurt.name=Sangue saindo das feridas
+mobdis.config.prop.greenBlood.name=Cor de sangue verde
+mobdis.config.prop.gibPushing.name=O membro empurra entidades
+
+mobdis.config.prop.gibTime.comment=Tempo que os membros podem viver
+mobdis.config.prop.gibGroundTime.comment=Tempo de vida dos membros quando tocam o solo
+mobdis.config.prop.blood.comment=O membro deveria ter sangue?
+mobdis.config.prop.bloodCount.comment=Quantidade de partículas de sangue por membro
+mobdis.config.prop.bloodSplurt.comment=Deveria sair sangue da ferida?
+mobdis.config.prop.greenBlood.comment=Deveria sair sangue verde ao invés de vermelho?
+mobdis.config.prop.gibPushing.comment=Os membros empurram ativamente as entidades em seu caminho?
