@@ -1,0 +1,57 @@
+﻿pip.config.cat.clientOnly.name=仅限客户端
+pip.config.cat.clientOnly.comment=这些设置会影响运行该模组的客户端
+
+pip.config.prop.pipToggle.name=切换画中画
+pip.config.prop.pipToggle.comment=绑定切换画中画的按键.
+
+pip.config.prop.pipIcons.name=现实画中画图标
+pip.config.prop.pipIcons.comment=无论画中画是否开启均显示其图标
+
+pip.config.prop.pipView.name=画中画视角
+pip.config.prop.pipView.comment=画中画默认显示何种视图?\n0 = 第一人称\n1 = 第二人称(背后视角)\n2 = 第二人称(正前视角)
+
+pip.config.prop.updateFreq.name=更新频率
+pip.config.prop.updateFreq.comment=一秒内画中画更新的最高频率.\n设为0时绑定到渲染tick上.
+
+pip.config.prop.playerCam.name=玩家摄像头
+pip.config.prop.playerCam.comment=你想要以哪些人的视角进行观察(并无数量限制,但我推荐不要超过三人)??\n以英文逗号分割玩家名称. (更随视角的玩家数越多,所耗资源就越大)\n范例: Notch,Dinnerbone,Grumm
+
+pip.config.prop.showPlayerName.name=显示玩家名称
+pip.config.prop.showPlayerName.comment=画中画开启时是否显示玩家名称?
+
+pip.config.prop.pictureSize.name=画中画大小
+pip.config.prop.pictureSize.comment=每个画中画视图的最大尺寸.范围从10%到90%.\n当画中画渲染大小超过全屏时会自动进行重新调整.
+
+pip.config.prop.corner.name=画中画方位
+pip.config.prop.corner.comment=基本的画中画视图渲染在屏幕的什么方位?\n1 = 左上\n2 = 上中\n3 = 右上\n4 = 左中\n5 = 中央(你是认真的吗,可为什么呢??)\n6 = 右中\n7 = 左下\n8 = 下中\n9 = 右下
+
+pip.config.prop.alignment.name=画中画对齐
+pip.config.prop.alignment.comment=多个画中画沿着什么方向对齐?\n1 = 水平\n2 = 竖直
+
+pip.config.prop.animation.name=开启画中画动画?
+pip.config.prop.animation.comment=是否开启画中画动画?
+
+pip.config.prop.transparency.name=画中画透明度
+pip.config.prop.transparency.comment=画中画透明度.\n需要注意当设为半透明时图层之间会出现冲突,比如背景边界图层叠加雾气渲染图层和实际游戏图层时就会出现冲突.\n0 = 完全透明\n100 = 完全不透明
+
+pip.config.prop.transparencyMode.name=画中画透明模式
+pip.config.prop.transparencyMode.comment=画中画渲染的透明模式.\n0 = 所有渲染均使用相同透明度设置.\n1 = 设为关闭时使用透明度设置渲染,设为开启时渲染为完全不透明.\n2 = 设为开启时使用透明度设置渲染,设为关闭时渲染为完全不透明.
+
+pip.config.prop.range.name=画中画范围
+pip.config.prop.range.comment=追踪玩家视角的最大范围.设为0时无限制.\n范围量力而为地设置即可,玩家如果太远就任由他们走远吧.
+
+pip.viewing=观察
+pip.noFrameBuffer=你的系统不支持帧缓冲功能!画中画将无法正常工作!
+
+pip.command.help=键入所列参数的指令.
+
+pip.command.add=/pip <add> <player>           添加玩家至观察列表
+pip.command.remove=/pip <remove> <player>           将玩家从观察列表移除
+
+pip.command.add.success=已添加玩家至观察列表!
+pip.command.add.alreadyAdded=该玩家已经在观察列表中!
+
+pip.command.remove.success=已从观察列表移除该玩家!
+pip.command.add.alreadyRemoved=该玩家并不在观察列表中!
+
+pip.command.specifyPlayer=请指定玩家名称!
